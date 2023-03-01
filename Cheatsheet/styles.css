@@ -1,0 +1,120 @@
+*, *:before, *:after {
+    box-sizing: border-box
+  }
+   
+  body {
+    background-color: #6b5b95; 
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify; 
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace, serif;
+    padding: 300px auto;
+    margin: 300px, auto;
+  }
+  
+  .title {
+    font-style: italic;
+    background: #FFFACD;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family:'Bungee Shade', cursive;
+    font-size: xx-large;
+    color: #000;
+    height: em;
+    margin: auto;
+  }
+  
+  h2 span {
+    font-family: 'PT Mono', monospace, serif;
+    font-style: italic;
+    color: #FFF
+  }
+  
+  h3 {
+    font-style: bold;
+    text-align: left;
+    margin: 0.2em 1em;
+    font-size:14;
+  }
+  
+  table {
+    width: 90%;
+    display: block;
+    margin: 3em auto;
+    box-shadow: 0 0 5px 5px #000;
+    align-items: center;
+  }
+
+  td {
+    width: px;
+    margin-top: 5em;
+  }
+  
+  table, thead, td {
+    border: 3px #feb236 solid;
+    border-radius: 5px;
+    border-spacing: 0px;
+    background-color: #feb236;
+  }
+  
+  thead, th {
+    height: 3em;
+    border-bottom: 2px #000 solid;
+    border-spacing: 0px;
+  }
+  
+  .headertitle {
+    background-color: #f7ae3b;
+  }
+  
+   tr th {
+    background-color: #feb236;
+    line-height: 0px; 
+  }
+  
+  tbody td {
+    background-color: #FFFF;
+    font-size: 14;
+    text-align: justify;
+    padding: 0.5em;
+  }
+
+   code{
+     background-color: #FFF
+   }
+  
+  .element {
+    width: 6em;
+    height: 0.5em;
+    text-align: center;
+    background-color: #FFFACD;
+  }
+  
+  .def td {
+    text-align: justify;
+  }
+  
+  tfoot p {
+    text-align: center;
+    padding: 0.2em auto;
+    font-size: 12;
+    height: 0.2em;
+  }
+  
+  footer {
+    display: fixed;
+    position: block;
+    margin: 3em auto;
+    background-color:#FFFACD;
+  }
+  footer p {
+    text-align: center;
+    font-family:'Source Code Pro', monospace;
+    font-size: 12;
+    font-style: bold;
+  }
